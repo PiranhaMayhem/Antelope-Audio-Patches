@@ -5,57 +5,67 @@ Original Discrete 8 control panel application patch.
 This is a patch made for the original Discrete 8 interface. 
 
 It's function is to restore the development disabled grid matrix routing system that products like the orion studio and discrete 8 synergy core use today.
-No only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.
-With this you can now have
--Routing AFX outputs through analog outputs.
--Independent mix sources for each of the 4 mixCh.
--Optional pop out window for the routing table.
-
-Mixers now have more flexibility being able to have independent sources for each mix rather than all 4 mixes' sources being linked.
-
-AFX is now built into the CP window rather than a pop out. An option pop out button is available.
+No only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.With this you can now have
 
 This project was entirely vibe coded with Claude.
 
 This patch does not include any of Antelope Audio's original source code.
-You must have your own copy of Discrete 8 Control Panel 1.9.2 to use this.
+You must have your own copy of Discrete 8 Control Panel 1.9.10 to use this.
 
 
-## Install
 
-**You need:** an original Antelope Discrete 8 and the Discrete 8 Control Panel **1.9.10**
-(installed by the Antelope Launcher).
 
-1. **Download** `D8-Patch-v4.zip` from the [Releases](../../releases) page (under *Assets*).
-2. **Unzip it.** Double-click the zip in your Downloads folder. You should get a folder
-   called `D8-Patch-v4`. (Safari may unzip it for you automatically.)
-3. **Quit** the Discrete 8 Control Panel and the Antelope Launcher.
-4. **Open Terminal.** Press `Cmd + Space`, type `Terminal`, press Return.
-5. **Run the installer.** Copy this line, paste it into Terminal and press Return:
+WHAT IT ADDS
+------------
+-Routing AFX outputs through analog outputs.
+-Independent mix sources for each of the 4 mixCh.
+-Optional pop out window for the routing table.
+-Mixers now have more flexibility being able to have independent sources for each mix rather than all 4 mixes' sources being linked.
+-AFX is now built into the CP window rather than a pop out. An option pop out button is available.
 
-   ```
-   bash ~/Downloads/D8-Patch-v4/"Install D8 Patch.command"
-   ```
+WHAT YOU NEED
+-------------
+- An original Discrete 8.
+- A Mac with the Antelope Launcher, and the Discrete 8 Control Panel 1.9.10 installed
+  by it. (Open the Launcher with your Discrete 8 connected once, so it installs the
+  panel.) Other panel versions are not supported: the installer checks, and changes
+  nothing if your panel isn't 1.9.10.
 
-   *If you unzipped it somewhere else:* type `bash ` (with a space after it), drag
-   `Install D8 Patch.command` from Finder into the Terminal window, then press Return.
 
-6. Wait for **Done**, then press Return to finish. Open the Discrete 8 panel as usual.
+HOW TO INSTALL
+--------------
+1. Quit the Discrete 8 Control Panel (and close the Antelope Launcher).
+2. Double-click "Install D8 Patch.command".
+3. A Terminal window opens, does the work, and says "Done". Press Return to close it.
+4. Open the Discrete 8 panel as usual.
 
-Before changing anything, the installer saves a copy of your panel to your Desktop
-(`discrete8_unpatched.app`). It only patches Control Panel 1.9.10; on any other version
-it changes nothing.
+If your Mac says the file "can't be opened" or is from an "unidentified developer":
+   a. Click Done / OK on that message.
+   b. Open System Settings > Privacy & Security.
+   c. Scroll down: next to "Install D8 Patch.command was blocked", click "Open Anyway".
+   d. Confirm (your Mac password or Touch ID may be asked for), then it runs.
+   You only need to do this once for each of the two .command files.
 
-## Uninstall
+Before changing anything, the installer copies your panel to your Desktop:
+- an unpatched panel is saved as "discrete8_unpatched.app"
+- an already patched panel (when updating) is saved as "discrete8_copy.app"
+An existing copy is never overwritten; a new one gets a number ("discrete8_copy 2.app").
+You can delete these copies once you're happy.
 
+
+HOW TO UNDO
+-----------
 1. Quit the Discrete 8 Control Panel.
-2. In Terminal, run:
+2. Double-click "Uninstall D8 Patch.command".
+Your original panel is put back exactly as it was.
 
-   ```
-   bash ~/Downloads/D8-Patch-v4/"Uninstall D8 Patch.command"
-   ```
 
-Your original panel is restored.
+IF SOMETHING GOES WRONG
+-----------------------
+- The panel opens but looks normal (no ROUTING tab): the reason is written to the
+  log files in /Users/Shared/.AntelopeAudio/logs (look for "D8 routing patch").
+- Anything else: run "Uninstall D8 Patch.command", or reinstall the panel with the
+  Antelope Launcher.
 
 ## Disclaimer
 
