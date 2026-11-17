@@ -23,6 +23,17 @@ WHAT IT ADDS
 -Mixers now have more flexibility being able to have independent sources for each mix rather than all 4 mixes' sources being linked.
 -AFX is now built into the CP window rather than a pop out. An option pop out button is available.
 
+<img width="1375" height="772" alt="NEW Routing" src="https://github.com/user-attachments/assets/cf5f1e38-fca7-450c-b058-23511aa119cc" />
+
+<img width="1375" height="772" alt="NEW AFX" src="https://github.com/user-attachments/assets/05479e23-3e26-4359-aa36-fef90f9e4304" />
+
+<img width="1375" height="772" alt="NEWMixers" src="https://github.com/user-attachments/assets/5a0d3fab-cf65-454a-8e1e-61d498774c11" />
+
+<img width="1353" height="892" alt="NEW Pop out" src="https://github.com/user-attachments/assets/0ce8374a-0a2f-46db-a92c-c1578564dfd7" />
+
+<img width="1375" height="772" alt="NEW Analog" src="https://github.com/user-attachments/assets/4a8ac473-5830-45a9-b855-513e98240fa8" />
+
+
 WHAT YOU NEED
 -------------
 - An original Discrete 8.
