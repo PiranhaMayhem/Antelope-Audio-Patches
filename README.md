@@ -1,4 +1,4 @@
-# Antelope-Audio-Patches
+# Discrete 8 Control Panel Patch
 Original Discrete 8 control panel application patch.
 
 
