@@ -5,7 +5,7 @@ Original Discrete 8 control panel application patch.
 This is a patch made for the original Discrete 8 interface. 
 
 It's function is to restore the development disabled grid matrix routing system that products like the orion studio and discrete 8 synergy core use today.
-Not only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.With this you can now have
+Not only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.
 
 This project was entirely vibe coded with Claude.
 
