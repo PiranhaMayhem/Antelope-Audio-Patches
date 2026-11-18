@@ -5,7 +5,7 @@ Original Discrete 8 control panel application patch.
 This is a patch made for the original Discrete 8 interface. 
 
 It's function is to restore the development disabled grid matrix routing system that products like the orion studio and discrete 8 synergy core use today.
-No only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.With this you can now have
+Not only can you route in a new visual, it also unlocks fully routing flexibility that the vanilla discrete 8 experience did not provide.With this you can now have
 
 This project was entirely vibe coded with Claude.
 
@@ -18,6 +18,7 @@ You must have your own copy of Discrete 8 Control Panel 1.9.10 to use this.
 WHAT IT ADDS
 ------------
 -Routing AFX outputs through analog outputs.
+-Channel naming
 -Independent mix sources for each of the 4 mixCh.
 -Optional pop out window for the routing table.
 -Mixers now have more flexibility being able to have independent sources for each mix rather than all 4 mixes' sources being linked.
