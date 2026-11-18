@@ -18,10 +18,15 @@ You must have your own copy of Discrete 8 Control Panel 1.9.10 to use this.
 WHAT IT ADDS
 ------------
 -Routing AFX outputs through analog outputs.
+
 -Channel naming
+
 -Independent mix sources for each of the 4 mixCh.
+
 -Optional pop out window for the routing table.
+
 -Mixers now have more flexibility being able to have independent sources for each mix rather than all 4 mixes' sources being linked.
+
 -AFX is now built into the CP window rather than a pop out. An option pop out button is available.
 
 <img width="1375" height="772" alt="NEW Routing" src="https://github.com/user-attachments/assets/cf5f1e38-fca7-450c-b058-23511aa119cc" />
